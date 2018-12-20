@@ -26,7 +26,7 @@
     <br>
     <label>Telefono:
         <br>
-        <input type="text" name="telefono" required maxlength="<?= No_MAX_CARACTERES ?>">
+        <input type="number" name="telefono" required maxlength="<?= No_MAX_CARACTERES ?>">
     </label>
     <br>
     <input type="submit" value="Entrar" required>
